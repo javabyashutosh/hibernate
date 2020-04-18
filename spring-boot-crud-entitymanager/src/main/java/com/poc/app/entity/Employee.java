@@ -16,6 +16,7 @@ import lombok.NoArgsConstructor;
 public class Employee
 {
     @Id
+    @GeneratedValue
     @Column(name = "employee_id")
     private int id;
     @Column(name = "employee_name")
